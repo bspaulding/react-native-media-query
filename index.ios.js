@@ -8,14 +8,6 @@ import {
   Text,
   View
 } from 'react-native';
-import DetailView from './src/components/DetailView';
+import App from './src/components/App';
 
-export default class RNMediaQuery extends Component {
-  render() {
-    return (
-			<DetailView/>
-    );
-  }
-}
-
-AppRegistry.registerComponent('RNMediaQuery', () => RNMediaQuery);
+AppRegistry.registerComponent('RNMediaQuery', () => App);
