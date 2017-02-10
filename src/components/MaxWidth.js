@@ -7,7 +7,6 @@ class MaxWidth extends Component {
 	};
 
 	render() {
-		console.log('MaxWidth, dimensions: ', this.props.dimensions);
 		const { width } = this.props.dimensions;
 		return this.props.width >= width
 			? this.props.children

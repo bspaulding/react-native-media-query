@@ -7,7 +7,6 @@ class MinWidth extends Component {
 	};
 
 	render() {
-		console.log('MinWidth, dimensions: ', this.props.dimensions);
 		const { width } = this.props.dimensions;
 		return this.props.width <= width
 			? this.props.children

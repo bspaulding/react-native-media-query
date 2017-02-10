@@ -20,7 +20,7 @@ export default function WithDimensions(ComponentClass) {
 		render() {
 			return (
 				<View onLayout={this.onLayout}>
-					<ComponentClass dimensions={this.state.dimensions}/>
+					<ComponentClass {...this.props} dimensions={this.state.dimensions}/>
 				</View>
 			);
 		}
